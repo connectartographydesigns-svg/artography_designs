@@ -21,13 +21,13 @@ This is a static HTML/CSS/JavaScript site. GitHub Pages is free for eligible use
 
 ## Current final direction
 - Dark cinematic Artography Designs visual system with an abstract blue-violet galaxy nebula backdrop.
-- The background uses `assets/galaxy-nebula-background.png` as a replaceable asset.
+- The background uses `galaxy-nebula-background.png` as a replaceable asset.
 - To replace it with a video later, add a muted, autoplay, looped, playsinline `<video class="site-bg-video">` element near the start of `<body>` and point it to your optimized MP4/WebM file. Keep the dark overlay so hero text remains legible.
 - Review all portfolio thumbnails and any testimonial/metric content before publishing; replace concepts and placeholders with approved real work and verified feedback. Do not publish fictional testimonials, client identities, ratings, or performance statistics.
 - Update contact details, booking link, social URLs, and project assets before launch.
 
 
-Portfolio navigation correction: the previous/next circular arrows now sit in their own horizontally centered row directly above the portfolio cards, with no overlap on card artwork.
+GitHub upload note: this package is configured for the image files to sit beside index.html in the repository root, matching the current GitHub upload. If you prefer an assets folder, move the images into that folder and restore the assets/ prefixes in the HTML/CSS.
 
 
-Hover polish update: portfolio cards now lift and scale slightly more with a stronger cyan-blue-violet animated trim-path outline on hover/focus. The centered circular carousel arrows and their placement were not changed.
+GitHub Pages file layout: keep all HTML, CSS, JavaScript, and image files in the repository root. The header/footer logo now references `./artography-logo-transparent.png`, which is included at the root.
