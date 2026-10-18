@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b10">
+  <meta name="description" content="Artography Designs creates motion graphics, SaaS explainers, product videos and digital experiences. Ideas in Motion. Impact by Design.">
+  <title>Artography Designs — Ideas in Motion. Impact by Design.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="Artography Designs home">
+      <img class="brand-logo" src="assets/artography-logo.png" alt="Artography Designs logo">
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#process">Process</a>
+      <a class="nav-cta" href="#contact">Book a Free Demo</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="hero-copy-block">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> CREATIVE STUDIO</p>
+        <h1>Ideas in Motion.<br><span>Impact by Design.</span></h1>
+        <p class="hero-copy">We turn complex ideas into clear, compelling visual experiences — for SaaS, startups and modern brands.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore Our Work <span>→</span></a>
+          <a class="button button-quiet" href="#contact">Book a Free Demo Call <span>↗</span></a>
+        </div>
+        <div class="hero-proof">
+          <span><i>✦</i><b>Motion Graphics</b><small>That Tell Stories</small></span>
+          <span><i>◈</i><b>SaaS &amp; Product</b><small>Explainers</small></span>
+          <span><i>✧</i><b>Creative Partner</b><small>From Concept to Delivery</small></span>
+        </div>
+      </div>
+      <div class="hero-art planet-hero-art" aria-hidden="true">
+        <div class="planet-visual-wrap">
+          <img class="planet-hero-image" src="assets/orbital-planet-hero.png" alt="" />
+          <span class="planet-image-vignette"></span>
+          <span class="planet-orbit-overlay orbit-a"></span>
+          <span class="planet-orbit-overlay orbit-b"></span>
+          <span class="planet-orbit-overlay orbit-c"></span>
+          <span class="planet-route-node node-a"><i>▶</i></span>
+          <span class="planet-route-node node-b"><i>✧</i></span>
+          <span class="planet-route-node node-c"><i>▧</i></span>
+          <span class="planet-route-node node-d"><i>⌘</i></span>
+          <span class="planet-route-dot dot-a"></span><span class="planet-route-dot dot-b"></span><span class="planet-route-dot dot-c"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-section section-shell" id="work">
+      <div class="section-heading work-heading">
+        <div><p class="eyebrow">THE PORTFOLIO</p><h2>Selected <span>work.</span></h2></div>
+        <p class="section-note">Explore the kind of stories we can bring to life. Select a category to view projects.</p>
+        
+      </div>
+      <div class="slider-controls">
+        <span class="slider-count"><strong id="active-count">01</strong> <span>/ 10</span></span>
+      </div>
+      <div class="carousel-nav-centered" aria-label="Portfolio carousel controls">
+        <button class="slider-arrow" id="slide-prev" aria-label="Previous categories">←</button>
+        <button class="slider-arrow" id="slide-next" aria-label="Next categories">→</button>
+      </div>
+      <div class="portfolio-viewport" id="portfolio-viewport" tabindex="0" aria-label="Portfolio categories carousel">
+        <div class="portfolio-track" id="portfolio-track">
+          <a class="portfolio-card active" href="category.html?category=motion-graphics" data-category="motion-graphics"><div class="card-art art-motion"><span class="art-orb"></span><span class="art-line"></span><span class="art-caption">FORM / FEEL / FLOW</span></div><div class="portfolio-card-meta"><div><p>01 / MOTION</p><h3>Motion Graphics</h3></div><span class="card-arrow">↗</span></div></a>
+          <a class="portfolio-card" href="category.html?category=saas-explainer-videos" data-category="saas-explainer-videos"><div class="card-art art-saas"><div class="mini-ui"><i></i><i></i><i></i><b></b><b></b><b></b></div><span class="art-caption">MAKE COMPLEX SIMPLE</span></div><div class="portfolio-card-meta"><div><p>02 / EXPLAIN</p><h3>SaaS Explainer Videos</h3></div><span class="card-arrow">↗</span></div></a>
+          <a class="portfolio-card" href="category.html?category=product-demos" data-category="product-demos"><div class="card-art art-product"><div class="product-window"><span></span><span></span><span></span><b>PRODUCT<br>IN FOCUS</b></div></div><div class="portfolio-card-meta"><div><p>03 / PRODUCT</p><h3>Product Demos &amp; Promos</h3></div><span class="card-arrow">↗</span></div></a>
+          <a class="portfolio-card" href="category.html?category=2d-animation" data-category="2d-animation"><div class="card-art art-2d"><span class="shape shape-a"></span><span class="shape shape-b"></span><span class="shape shape-c"></span><span class="art-caption">CHARACTER / STORY</span></div><div class="portfolio-card-meta"><div><p>04 / ANIMATION</p><h3>2D Animation</h3></div><span class="card-arrow">↗</span></div></a>
+          <a class="portfolio-card" href="category.html?category=video-editing-reels" data-category="video-editing-reels"><div class="card-art art-reels"><span class="reel-frame">PLAY<br><b>THE<br>MOMENT</b></span></div><div class="portfolio-card-meta"><div><p>05 / EDIT</p><h3>Video Editing &amp; Reels</h3></div><span class="card-arrow">↗</span></div></a>
+          <a class="portfolio-card" href="category.html?category=infographic-animation" data-category="infographic-animation"><div class="card-art art-info"><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i></div><span class="art-caption">DATA, WITH DIRECTION</span></div><div class="portfolio-card-meta"><div><p>06 / EXPLAIN</p><h3>Infographic Animation</h3></div><span class="card-arrow">↗</span></div></a>
+          <a class="portfolio-card" href="category.html?category=website-visuals" data-category="website-visuals"><div class="card-art art-web"><div class="web-window"><b>BUILD A<br>BETTER<br>FIRST IMPRESSION.</b><span></span></div></div><div class="portfolio-card-meta"><div><p>07 / DIGITAL</p><h3>Website Visuals</h3></div><span class="card-arrow">↗</span></div></a>
+          <a class="portfolio-card" href="category.html?category=social-media-marketing" data-category="social-media-marketing"><div class="card-art art-social"><span class="social-tile">S</span><span class="social-tile">M</span><span class="social-tile">↗</span></div><div class="portfolio-card-meta"><div><p>08 / GROWTH</p><h3>Social Media &amp; Marketing</h3></div><span class="card-arrow">↗</span></div></a>
+          <a class="portfolio-card" href="category.html?category=website-design-development" data-category="website-design-development"><div class="card-art art-dev"><div class="browser-lines"><i></i><i></i><i></i><b></b><b></b><b></b></div><span class="art-caption">DESIGNED TO MOVE YOU</span></div><div class="portfolio-card-meta"><div><p>09 / WEB</p><h3>Website Design &amp; Development</h3></div><span class="card-arrow">↗</span></div></a>
+          <a class="portfolio-card" href="category.html?category=business-presentations" data-category="business-presentations"><div class="card-art art-pitch"><div class="slide-sheet"><span>01</span><b>THE NEXT<br>BIG IDEA.</b></div></div><div class="portfolio-card-meta"><div><p>10 / PRESENT</p><h3>Business Presentation Videos</h3></div><span class="card-arrow">↗</span></div></a>
+        </div>
+      </div>
+      <p class="placeholder-note">Visual concepts shown as design placeholders — replace with your own approved project work before launch.</p>
+    </section>
+
+    <section class="credibility-strip section-shell" aria-label="Studio capabilities">
+      <span>BUILT FOR CLEAR COMMUNICATION</span><b>SAAS &amp; TECH</b><b>STARTUPS</b><b>AGENCIES</b><b>MODERN BRANDS</b>
+    </section>
+
+    <section class="about-section section-shell" id="about">
+      <div class="about-visual">
+        <div class="about-screen">
+          <div class="screen-top"><i></i><i></i><i></i><span>CREATIVE PRODUCTION / STUDIO</span></div>
+          <div class="screen-composition"><div class="screen-orb"></div><div class="screen-line"></div><span>Ideas<br><b>into impact.</b></span></div>
+          <div class="screen-caption"><b>Ideas. Creative Production. Real Impact.</b><small>Design • Motion • Storytelling</small></div>
+        </div>
+        <div class="about-visual-glow"></div>
+      </div>
+      <div class="about-content"><p class="eyebrow">ABOUT ARTOGRAPHY DESIGNS</p><h2>A creative studio<br><span>for modern brands.</span></h2><p>Artography Designs is a creative studio specializing in motion graphics, explainer videos, animation and digital design. We help businesses communicate clearly, engage their audience and bring ideas to life through high-quality visual storytelling.</p><ul class="about-points"><li>Story-driven visual content</li><li>Design, animation and editing under one roof</li><li>Focused on quality, clarity and real business impact</li></ul><a class="button button-quiet" href="#contact">More About Us <span>→</span></a></div>
+    </section>
+
+    <section class="process-section section-shell" id="process">
+      <div class="section-heading"><div><p class="eyebrow">HOW WE WORK</p><h2>Simple process.<br><span>Intentional outcomes.</span></h2></div><p class="section-note">A collaborative process that keeps the goal clear from first conversation to final delivery.</p></div>
+      <div class="process-grid">
+        <article class="process-card"><span>01</span><h3>Discover</h3><p>We learn about your audience, goals and the problem your story needs to solve.</p></article>
+        <article class="process-card"><span>02</span><h3>Script &amp; Design</h3><p>We shape the message, visual direction and storyboard before production.</p></article>
+        <article class="process-card"><span>03</span><h3>Produce</h3><p>Design, animation and sound come together through focused creative execution.</p></article>
+        <article class="process-card"><span>04</span><h3>Deliver</h3><p>Receive polished, platform-ready assets prepared for your next step.</p></article>
+      </div>
+    </section>
+
+    <section class="why-section section-shell">
+      <p class="eyebrow">WHY ARTography</p><h2>Creative with a purpose.<br><span>Craft without the clutter.</span></h2>
+      <div class="why-grid"><div><b>01 / CLARITY FIRST</b><p>Every visual choice supports the message, not the other way around.</p></div><div><b>02 / BUILT AROUND YOU</b><p>A collaborative approach shaped around your goals and audience.</p></div><div><b>03 / DETAILS MATTER</b><p>Thoughtful pacing, clean design and considered finishing.</p></div></div>
+    </section>
+
+    <section class="testimonials-section section-shell" id="reviews">
+      <div class="section-heading"><div><p class="eyebrow">PARTNERSHIPS</p><h2>Good work.<br><span>Great partnerships.</span></h2></div><p class="section-note">Client feedback will appear here once genuine reviews are supplied and approved.</p></div>
+      <div class="review-track" aria-label="Client review cards">
+        <article class="review-card review-card-featured"><div class="review-stars" aria-label="Rating placeholder">★★★★★</div><p>“Add a genuine client comment here once the client has approved it for publication.”</p><div class="review-person"><span class="review-avatar">+</span><div><b>Verified client feedback</b><small>Replace with approved name and project</small></div></div><span class="review-edit-label">PLACEHOLDER — NOT A LIVE REVIEW</span></article>
+        <article class="review-card"><div class="review-stars">★★★★★</div><p>“Use this card for another real testimonial, with permission to publish.”</p><div class="review-person"><span class="review-avatar">+</span><div><b>Client review</b><small>Approved name / company</small></div></div><span class="review-edit-label">EDIT BEFORE LAUNCH</span></article>
+        <article class="review-card"><div class="review-stars">★★★★★</div><p>“Add feedback about the project process, communication or final delivery.”</p><div class="review-person"><span class="review-avatar">+</span><div><b>Client review</b><small>Approved name / company</small></div></div><span class="review-edit-label">EDIT BEFORE LAUNCH</span></article>
+      </div>
+      <p class="reviews-note">Review cards are design placeholders only. Replace all text and ratings with authentic, approved client feedback before publishing.</p>
+    </section>
+
+    <section class="contact-section section-shell" id="contact">
+      <p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let's make something<br><span>meaningful.</span></h2><p>Tell us what you're building. We'll explore how motion and design can help communicate it clearly.</p>
+      <a class="button button-primary" href="mailto:hello@artographydesigns.com?subject=Free%20Demo%20Call%20Inquiry">Book a Free Demo Call <span>↗</span></a>
+      <small class="contact-note">Replace the sample email link with your preferred contact details before launch.</small>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark" href="index.html"><img class="brand-logo" src="assets/artography-logo.png" alt="Artography Designs logo"></a><p>Ideas in Motion. Impact by Design.</p><span>© <span id="year"></span> Artography Designs</span></footer>
+</body>
+</html>

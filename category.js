@@ -1,0 +1,15 @@
+const categories={
+"motion-graphics":{title:"Motion Graphics",kicker:"01 / MOTION DESIGN",intro:"Purposeful movement, considered design and visual rhythm — created to make your message memorable."},
+"saas-explainer-videos":{title:"SaaS Explainer Videos",kicker:"02 / EXPLAIN",intro:"Clear, engaging stories that help people understand your product and why it matters."},
+"product-demos":{title:"Product Demos & Promos",kicker:"03 / PRODUCT",intro:"Bring your product experience into focus with polished demos and launch-ready promo videos."},
+"2d-animation":{title:"2D Animation",kicker:"04 / ANIMATION",intro:"Distinctive characters, expressive movement and visual storytelling shaped around your idea."},
+"video-editing-reels":{title:"Video Editing & Reels",kicker:"05 / EDIT",intro:"Platform-ready edits with intentional pacing, strong hooks and a clean visual finish."},
+"infographic-animation":{title:"Infographic Animation",kicker:"06 / DATA STORYTELLING",intro:"Turn information, processes and data into visual stories that are easier to follow."},
+"website-visuals":{title:"Website Visuals",kicker:"07 / DIGITAL",intro:"Motion-led visual assets that help your digital experience feel cohesive and considered."},
+"social-media-marketing":{title:"Social Media Management & Digital Marketing",kicker:"08 / GROWTH",intro:"Consistent, creative content designed around your brand voice and marketing goals."},
+"website-design-development":{title:"Website Design & Development",kicker:"09 / WEB",intro:"Modern, responsive web experiences designed to communicate clearly and guide action."},
+"business-presentations":{title:"Business Presentation Videos",kicker:"10 / PRESENT",intro:"Pitch and presentation videos that give important ideas a clear, confident visual story."}};
+const params=new URLSearchParams(location.search);const key=params.get("category")||"motion-graphics";const data=categories[key]||categories["motion-graphics"];
+document.title=data.title+" — Artography Designs";document.querySelector("#category-title").innerHTML=`${data.title}<span>.</span>`;document.querySelector("#category-kicker").textContent=data.kicker;document.querySelector("#category-intro").textContent=data.intro;
+const grid=document.querySelector("#category-grid");for(let i=1;i<=3;i++){const article=document.createElement("article");article.className="project-placeholder";article.innerHTML=`<span class="project-tag">PROJECT PLACEHOLDER / 0${i}</span><div><h2>Project title goes here</h2><p>Add a short description of the brief, your creative approach and the final deliverable. Replace this card with your real project and video preview.</p><div class="project-status">REPLACE WITH APPROVED PORTFOLIO WORK</div></div>`;grid.appendChild(article)}
+document.querySelector("#year").textContent=new Date().getFullYear();
