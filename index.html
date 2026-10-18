@@ -61,12 +61,17 @@
       <div class="section-heading work-heading">
         <div><p class="eyebrow">THE PORTFOLIO</p><h2>Selected <span>work.</span></h2></div>
         <p class="section-note">Explore the kind of stories we can bring to life. Select a category to view projects.</p>
-        <div class="slider-buttons heading-slider-buttons"><button class="slider-arrow" id="slide-prev" aria-label="Previous categories">←</button><button class="slider-arrow" id="slide-next" aria-label="Next categories">→</button></div>
+       <!-- Slider arrows moved to their own row below the heading -->
       </div>
       <div class="slider-controls">
         <span class="slider-count"><strong id="active-count">01</strong> <span>/ 10</span></span>
       </div>
-      <div class="portfolio-viewport" id="portfolio-viewport" tabindex="0" aria-label="Portfolio categories carousel">
+      
+<div class="carousel-nav-centered" aria-label="Portfolio carousel controls">
+  <button class="slider-arrow" id="slide-prev" aria-label="Previous categories">←</button>
+  <button class="slider-arrow" id="slide-next" aria-label="Next categories">→</button>
+</div>
+<div class="portfolio-viewport" id="portfolio-viewport" tabindex="0" aria-label="Portfolio categories carousel">
         <div class="portfolio-track" id="portfolio-track">
           <a class="portfolio-card active" href="category.html?category=motion-graphics" data-category="motion-graphics"><div class="card-art art-motion"><span class="art-orb"></span><span class="art-line"></span><span class="art-caption">FORM / FEEL / FLOW</span></div><div class="portfolio-card-meta"><div><p>01 / MOTION</p><h3>Motion Graphics</h3></div><span class="card-arrow">↗</span></div></a>
           <a class="portfolio-card" href="category.html?category=saas-explainer-videos" data-category="saas-explainer-videos"><div class="card-art art-saas"><div class="mini-ui"><i></i><i></i><i></i><b></b><b></b><b></b></div><span class="art-caption">MAKE COMPLEX SIMPLE</span></div><div class="portfolio-card-meta"><div><p>02 / EXPLAIN</p><h3>SaaS Explainer Videos</h3></div><span class="card-arrow">↗</span></div></a>
